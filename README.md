@@ -3,7 +3,7 @@ templater.bash
 
 Usage: `./templater.bash template_filename field1 [field2 … fieldN]`
 
-REMEMBER TO HTML ENCODE THE DOLLAR SIGN IN YOUR TEMPLATE: $ as \&dollar; if you ever use it.  
+REMEMBER TO HTML ENCODE THE DOLLAR SIGN IN YOUR TEMPLATE $ as \&dollar; if you ever use it by itself and not as a **field**.  
 
 It is not done automatically because it is context-dependent.
 
