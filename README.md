@@ -22,7 +22,7 @@ This way you can have multiple generators to create dispensable html files.
 ---
 # Example use
 
-Note: I prepended numbers to the files because gists don't have order, and that way it is easier to see the flow. you can just `for f in *; do { mv $f ${f#z[234]} }; done `.  The **templater.bash** is the only file that matters outside the template **you construct with the fields** in html.
+Note: The **templater.bash** is the only file that matters outside the template **you construct with the fields** in html.
 
 1. run: `./templater.bash example-minimal.html computer_image.png tablet_image.png phone_image.png`
 this takes the file `example-minimal.html`, that has fields with $1, $2 and $3 expecting expecting 3 images.
