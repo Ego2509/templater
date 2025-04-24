@@ -33,4 +33,5 @@ this takes the file `example-minimal.html`, that has fields with $1, $2 and $3 e
 
 that will create the file `example-minimal_generated.html`
 
+You can see templater also as a [gist](https://gist.github.com/Ego2509/021830d49c82e181176f9e8e9d17eb97)
 
